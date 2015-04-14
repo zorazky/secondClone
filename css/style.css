@@ -1,0 +1,181 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/* End of Reset */
+/* Start of Custom Styles */
+.content {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+.top-navigation > .content {
+    
+}
+.top-navigation .logo {
+    height: 70px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+
+    width: 9.688rem;
+  	background-color: #f15a29;
+  	border-color: #f15a29;
+  	color: white;
+  	font-size: 1.125rem;
+  	display: block;
+  	font-weight: 300;
+  	margin: 20px auto;
+}
+
+.big-button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
+
+h1, h3, h2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+}
+
+h1 {
+	
+  	font-size: 3.125rem;
+  	padding-top: 200px;
+}
+
+h3 {
+	margin-top: 1.25rem;
+  	font-size: 1.563rem;
+}
+
+h2 {
+	font-size: 2.75rem;
+  	margin: 5.625rem 0 3.125rem;
+  	font-weight: 300;
+    color: #1d1e21;
+
+}
+
+.devices > img {
+	width: 127px;
+	height: 127px;
+}
+
+.devices {
+	color: #1d1e21;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	float: left;
+
+}
+
+.devices h4 {
+	font-weight: 400;
+  	font-size: 1.563rem;
+  	margin: .5rem 0px 1.875rem;
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    height: 4em;
+}
+
+.social {
+	margin-top: 300px;
+	height: 400px;
+}
+
+
+
+
+
+
+
