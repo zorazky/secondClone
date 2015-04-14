@@ -114,7 +114,7 @@ ol, ul {
   cursor: pointer;
 }
 
-h1, h3, h2 {
+h1, h3, h2, h5 , .copy {
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	font-weight: 300;
@@ -137,6 +137,15 @@ h2 {
   	margin: 5.625rem 0 3.125rem;
   	font-weight: 300;
     color: #1d1e21;
+
+}
+
+h5 {
+  font-size: 1rem;
+    
+    font-weight: 300;
+    color: #1d1e21;
+    
 
 }
 
@@ -170,9 +179,47 @@ h2 {
 
 .social {
 	margin-top: 300px;
-	height: 400px;
+	height: 300px;
+  overflow: auto;
+  padding-bottom: 2.375rem;
+  text-align: center;
 }
 
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.social .fa-twitter {
+  color: #55acee;
+}
+
+.social .fa-facebook {
+  color: #4c66a4;
+}
+
+.social .fa-instagram {
+  color: #3f729b;
+}
+
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+
+}
 
 
 
